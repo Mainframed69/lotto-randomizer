@@ -1,3 +1,5 @@
+#BY Ronal Lara
+#Ask for commented version via mail. mainframed69@nossl.ku
 from bs4 import BeautifulSoup as Soup
 from urllib.request import urlopen
 from collections import Counter
@@ -36,7 +38,7 @@ while PAGENUMBER <= 83:
         COUNTER += 1
     PAGENUMBER += 1
 
-with open('lotto.csv', 'w') as data:
+with open('melate.csv', 'w') as data:
     file = csv.writer(data)
     file.writerows(OFFICIALDATA.items())
 
