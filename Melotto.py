@@ -1,8 +1,10 @@
 #P&R Marketing 2019
 #Programado y comentado por Ronal L(Mainframed69). Open Source.
-#Código Recursivo, Convergente y con condicionales estaticas para generar,
-#Todas las combinaciónes posibles para 'N' en una serie de 'R' iterando a un ídice "Y"
-#Uso de la función 'def combinationUtil' como printer de 'def printCombination(arr, n, r):
+#Código de alto rendimiento Recur>> Convergente >> condicionales estáticas para generar,
+#Todas las combinaciones posibles para 'N' en una serie de 'R' iterando a un índice "Y"(Remplazo de Series de Newton por identidades de Pascal )
+                                                                             #>>arr:Condicional de serie / Storage Var / Arreglo Temporal <<
+                                                                              #^^
+#Uso de la función 'def combinationUtil' como printer de 'def printCombination(arr, n, r): //Python 3.7.1+ (virtual.env recomendado)
 def printCombination(arr, n, r): 
 	# Arreglo temporal para guardar variables
 	# Todas las combinaciones una por una 
