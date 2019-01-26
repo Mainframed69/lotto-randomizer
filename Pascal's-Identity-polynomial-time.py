@@ -1,4 +1,11 @@
- def printCombination(arr, n, r): 
+ 
+	#Pascal Indentity diferentiation concept replacing newton series
+	#Coments coming soon in both lenguages, stay put.
+	#Open Source Over symplified solution for All possible combinations given "r" static numberrs looking for convergence in "arr"
+	#Given a conditional "n".
+	#Effective for Hyper+
+	                                                                                     
+	def printCombination(arr, n, r): 
 	
 	data = [0]*r; 
 	combinationUtil(arr, data, 0, 
